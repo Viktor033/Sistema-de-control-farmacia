@@ -43,6 +43,24 @@
 
 ---
 
+## 📁 Estructura del Proyecto
+
+```text
+Sistema-de-control-farmacia/
+├── index.html               # Vista principal y estructura de pestañas/modales
+├── css/
+│   └── styles.css           # Estilos personalizados, animaciones y formato térmico (@media print)
+├── js/
+│   ├── tailwind-config.js   # Configuración de paleta clínica y tipografías de Tailwind
+│   ├── data.js              # Base de datos inicial (vademécum, lotes FEFO e historial de caja)
+│   ├── audio.js             # Sintetizador de audio POS mediante Web Audio API
+│   └── app.js               # Motor principal (POS, carrito, inventario, lotes, reportes y atajos)
+├── README.md                # Presentación general del sistema
+└── MANUAL_DE_USO.md         # Manual de usuario detallado paso a paso
+```
+
+---
+
 ## 🛠️ Tecnologías Utilizadas
 
 * **Frontend:** HTML5 Semántico, CSS3 y JavaScript Vanilla (ES6+).
